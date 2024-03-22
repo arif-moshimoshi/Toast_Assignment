@@ -1,50 +1,45 @@
-
 .toast {
-   background-color: rgb(40, 40, 41);
-   color: #fff;
-   padding: 10px 20px;
-   border-radius: 5px;
-   display: flex;
-   align-items: center;
- }
- 
- .toast-text {
-   flex: 1;
- }
- 
- .toast-divider {
-   width: 1px;
-   height: 20px;
-   background-color: #fff;
-   margin: 0 10px;
- }
- 
- .toast-action {
-   background-color: #47B647;
-   color: #fff;
-   border: none;
-   border-radius: 3px;
-   padding: 5px 10px;
-   cursor: pointer;
-   transition: background-color 0.3s;
- }
- 
- .toast-action:hover {
-   background-color: #0056b3;
- }
- 
- .toast-close {
-   background-color: transparent;
-   border: none;
-   cursor: pointer;
-   outline: none;
- }
- 
- .toast-close:focus {
-   outline: none;
- }
- 
- .toast-close-icon {
-   color: #fff;
- }
- 
+  background-color: rgb(40, 40, 41);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.toast-text {
+  flex: 1;
+}
+
+.toast-divider {
+  width: 1px;
+  height: 20px;
+  background-color: #4b4646;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+.toast-action {
+  background-color: #47B647;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toast-close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.notify{
+  color: blue;
+  margin-right: 10px;
+
+}

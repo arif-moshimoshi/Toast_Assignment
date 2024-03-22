@@ -5,7 +5,13 @@ function App() {
 
   return (
     <>
-       <Toast type="default" text="Message here" actionText="Button"/>
+      <Toast
+        type="Default"
+        text="Message here."
+        actionText="Button"
+        onClose={() => { }}
+        onAction={() => { }}
+      />
     </>
   )
 }

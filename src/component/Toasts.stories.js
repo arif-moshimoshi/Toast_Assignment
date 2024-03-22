@@ -4,16 +4,25 @@ export default {
   title: "component/toast",
   component: Toast,
   parameters: {
-    layout:"centered",
+    layout: "centered",
   },
-  tags:['autodocs'],
+  tags: ['autodocs'],
 }
 
 
 export const defaultType = {
 
   args: {
-    type:"default",
-    text:"text here",  
+    type: "default",
+    text: "Message here",
+    actionText: "Button"
+  }
+}
+
+export const notificationType = {
+  args: {
+    type: "notification",
+    text: "Message here", 
+    actionText: "Button"
   }
 }
